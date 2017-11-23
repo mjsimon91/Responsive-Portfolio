@@ -1,0 +1,251 @@
+/* Adding a background image */
+
+body {
+  background-image: url(../images/background.png);
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+/* Adding the CSS for the header*/
+
+Header {
+  background-color: #ffffff;
+  font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.Head-Container {
+  height: 100px;
+  width: 960px;
+  left: 10%;
+  margin-left: 10%;
+}
+
+/* Adding the CSS for my name on the screen to be a teal color with white text */
+
+.My-Name-Container {
+  width: 240px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #4aaaa5;
+  border-style: hidden;
+  float: left;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+/* Adding the CSS for the nav HTML element as a whole */
+
+header nav {
+  width: 270px;
+  float: right;
+  align-content: center;
+  color: #999999;
+  margin-top: 70px;
+}
+
+/* Adding the correct font color to the nav and removing the underlined text from the links */
+
+.navigation {
+  color: #999999;
+  text-decoration: none;
+  float: right;
+  font-size: 18px;
+}
+
+/* Adding the correct border to the nav links as well as a margin */
+.Portfolio-Nav {
+  float: right;
+  padding-left: 10px;
+}
+
+.Contact-Nav {
+  padding-right: 10%;
+  float: right;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: grey;
+  height: 21px;
+  padding-left: 10px;
+}
+
+.About-Nav {
+  padding-right: 10%;
+  float: right;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: grey;
+  height: 21px;
+}
+/* This is the end of the CSS for the header elements */
+/* This is the beggining of the main content section of the body */
+
+/* Defining the size of the content container on the web page */
+
+.body-container {
+  margin-bottom: 30px;
+  width: 960px;
+  margin-left: 10%;
+  margin-top: 40px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Defining the CSS for the content box as a whole that talks about me */
+
+.Section-Header {
+  background-color: #ffffff;
+  border-width: 1px;
+  width: 650px;
+  float: left;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+/* Adding the CSS in order to add a border to the bottom of the About me section */
+
+.Main-Content-Header {
+  margin: 30px 30px 0px 30px;
+  padding-bottom:10px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #f0f0f0;
+  font-size: 32px;
+  color: #4aaaa5;
+}
+
+/* Adding a margin to the main content so that the text wraps around the image */
+
+.Main-Content-Body {
+margin-left: 30px;
+margin-bottom: 30px;
+}
+
+img {
+  float: left;
+  margin: 0px 10px 20px 0px;
+}
+
+.Main-Content-Text {
+  margin-right: 10px;
+}
+.Connect {
+  float: right;
+  margin-left: : 39px;
+  padding: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  width: 270px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.Connect-links {
+  margin: 30px;
+}
+
+footer {
+  border-top-style: solid;
+  border-top-width: thick;
+  border-top-color: #4aaaa5;
+  background-color: #666666;
+  text-align: center;
+  color: white;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+html: {
+  position: relative;
+  min-height: 100%;
+};
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Connect-links img {
+  padding: 0;
+}
+
+#github {
+  height: 58px;
+  width: 58px;
+}
+
+#linkedin {
+  height: 58px;
+  width: 58px;
+}
+
+#stackoverflow {
+  height: 58px;
+  width: 58px;
+}
+
+#form-name {
+  padding: 10px;
+}
+#form-name p {
+  margin: 10px;
+}
+
+#contact-name, #contact-email  {
+  width: 590px;
+  height: 20px;
+  margin-top: 8px;
+}
+
+#contact-message {
+  width: 590px;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.box {
+position: relative;
+text-align: center;
+vertical-align: center;
+float: left;
+margin: 15px;
+width: 275px;
+}
+
+.box h1 {
+  height: 15%;
+  width: 255px;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #4aaaa5;
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-5 {
+  height: 200px;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  margin:10px;
+  background-color: #4aaaa5;
+}
